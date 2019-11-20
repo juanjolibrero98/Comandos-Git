@@ -22,10 +22,12 @@ _git config --global credential.helper 'cache --timeout=36000_
 ## Adición de ficheros y directorios al índice de elementos a tener en cuenta en el próximo commit.
 ## Registro de cambios
 ## Etiquetado de versiones
+_git tag -a (version) -m ('nombre')
 ## Listado de todas las etiquetas existentes con sus correspondientes descripciones
 ## Actualización de las etiquetas en el repositorio remoto
 ## Creación de la rama experimentocolores y cambio de contexto hacia esa rama
 ## Actualización del repositorio remoto indicando que los cambios se hacen desde una rama distinta a la principal
 ## Cambio de contexto hacia la rama master
 ## Fusión de ramas
+_git merge
 
